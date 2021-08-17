@@ -1,0 +1,27 @@
+{
+  "name": "nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .ts,.js,.vue ."
+  },
+  "dependencies": {
+    "@nuxtjs/device": "^2.1.0",
+    "core-js": "^3.15.1",
+    "dotenv": "^9.0.2",
+    "nuxt": "^2.15.7",
+    "nuxt-graphql-request": "^4.1.0",
+    "v-click-outside": "^3.1.2",
+    "vls": "^0.7.4",
+    "vue-columns-resizable": "^0.0.1"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.7",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/eslint-config-typescript": "^6.0.1"
+  }
+}

@@ -1,0 +1,140 @@
+:root {
+  --default-font: 'Montserrat', sans-serif;
+
+  --padding-x: 20px;
+  --padding-y: 20px;
+  --space-y-m: 20px;
+
+  --default-border-radius: 5px;
+  --form-element-y: 28px;
+  --button-x: 40px;
+  --header-y: 70px;
+  --navbar-x: 250px;
+  --default-padding-x: 8px;
+  --button-padding-x: 20px;
+  --default-box-shadow: 0px 0px 3px 1px rgb(55, 55, 55, 0.07);
+  --default-gap: 10px;
+  --default-margin: 20px;
+  --table-row-y: 30px;
+
+  --c-gray-1: #434343;
+  --c-gray-2: #878787;
+  --c-gray-3: #e5e5e5;
+  --c-gray-4: #f6f6f6;
+  --c-blue-1: #37474f;
+  --c-blue-2: #2A5469;
+  --c-blue-3: #3e6578;
+  --c-blue-4: #6D8C9C;
+  --c-transparent-bg: #87878787;
+  --c-success: #4bb71b;
+  --c-error: #CB4A4F;
+
+  --page-margin: 20px;
+
+  font-size: 12px;
+}
+
+body { 
+  margin: 0 !important;  
+  font-family: var(--default-font);
+}
+
+/* #region Text */
+
+.text {
+  font-size: 1rem;
+  color: var(--c-gray-1);
+  line-height: 1.5rem;
+}
+
+.h2 {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: #000000;
+}
+
+.h4 {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: var(--c-gray-1);
+}
+
+.h6 {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  color: var(--c-gray-1);
+}
+
+.subdued {
+  font-size: 0.9rem;
+  color: var(--c-gray-2);
+  line-height: 1.5rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.link {
+  color: var(--c-blue-2);
+  cursor: pointer;
+}
+
+/* #endregion */
+
+/* #region Elements */
+
+a { text-decoration: none; }
+
+label {
+  line-height: 2em;
+}
+
+/* #endregion */
+
+/* #region Containers */
+
+.container-m {
+  padding: var(--padding-y-m) var(--padding-x-m);
+}
+
+.container {
+  padding: var(--padding-y) var(--padding-x)
+}
+
+.button-group {
+  display: flex;
+  gap: var(--default-gap);
+}
+
+/* #endregion */
+
+/* #region Helpers */
+
+.mt {
+  margin-top: var(--default-margin);
+}
+
+.mb{
+  margin-bottom: var(--default-margin);
+}
+
+.mt2 {
+  margin-top: calc(var(--default-margin) * 2);
+}
+
+.mb2 {
+  margin-bottom: calc(var(--default-margin) * 2);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* #endregion */
+
+/* #region Table */
+
+
+
+/* #endregion */
